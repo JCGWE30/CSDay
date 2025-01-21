@@ -1,0 +1,8 @@
+name: CSDay
+version: '1.0'
+main: org.lepigslayer.cSDay.CSDay
+api-version: '1.21'
+commands:
+  give-wand:
+    usage: givewand
+    description: givewand

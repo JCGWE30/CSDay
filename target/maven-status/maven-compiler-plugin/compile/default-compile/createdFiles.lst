@@ -1,0 +1,10 @@
+org\lepigslayer\cSDay\FileCompiler.class
+org\lepigslayer\cSDay\CSDay.class
+org\lepigslayer\cSDay\Wand\CodeWrapper.class
+org\lepigslayer\cSDay\Wand\WandEventHandler.class
+org\lepigslayer\cSDay\Wand\WandGiver.class
+org\lepigslayer\cSDay\Wand\WandRaycast.class
+org\lepigslayer\cSDay\WandModificationException.class
+org\lepigslayer\cSDay\Wand\Wand.class
+org\lepigslayer\cSDay\Wand\WandEvent.class
+org\lepigslayer\cSDay\Wand\WandModifier.class
