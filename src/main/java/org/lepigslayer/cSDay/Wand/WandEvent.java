@@ -1,6 +1,7 @@
 package org.lepigslayer.cSDay.Wand;
 
 import org.bukkit.block.Block;
+import org.bukkit.entity.Damageable;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 

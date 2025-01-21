@@ -11,7 +11,8 @@ public class CodeWrapper {
         try{
             modifier = (WandModifier) obj;
             wand = new Wand();
-            modifier.runSetup(wand);
+            modifier.wand = wand;
+            modifier.runSetup();
             wand.endSetup();
         } catch (Exception e) {
             throw new RuntimeException(e);

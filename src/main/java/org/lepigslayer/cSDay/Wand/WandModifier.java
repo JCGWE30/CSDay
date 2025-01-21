@@ -3,10 +3,12 @@ package org.lepigslayer.cSDay.Wand;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
-public interface WandModifier {
-    void runSetup(Wand wand);
-    void onUse(WandEvent event);
-    void onEquip(Player player);
-    void onUnequip(Player player);
-    void onAttack(Player attacker, Entity victim);
+public abstract class WandModifier {
+    public Wand wand;
+
+    public abstract void runSetup();
+    public abstract void onUse(WandEvent event);
+    public abstract void onEquip(Player player);
+    public abstract void onUnequip(Player player);
+    public abstract void onAttack(Player attacker, Entity victim);
 }
